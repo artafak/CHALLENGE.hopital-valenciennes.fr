@@ -21,9 +21,10 @@ Dans sa phase 2, il est également possible de jouer :
 -	Gain d’accès via SSH et MySQL (bruteforce)
 -	…
 
-![image](https://github.com/artafak/CHALLENGE.hopital-valenciennes.fr/assets/38442391/bd42cb16-f947-4bcd-80e7-b68ede21eadb)
 
-![image](https://github.com/artafak/CHALLENGE.hopital-valenciennes.fr/assets/38442391/8a3935d3-4ffd-4437-83c6-3471011505d6)
+![image](https://github.com/artafak/CHALLENGE.hopital-valenciennes.fr/assets/38442391/545795fb-4bf1-42ee-82c3-6bc1440eaa9c)
+
+
 
 
 
@@ -32,9 +33,12 @@ Dans sa phase 2, il est également possible de jouer :
 Le principe étant de faire manipuler les participants sur des sites Internet fictifs, de type Wordpress, hébergés dans des machines virtuelles (déconnectées d’Internet).
 Il s’agit d’une plate-forme virtuelle composée de 2 machines virtuelles, simulant les sites Internet de l’hôpital de Valenciennes.
 Afin d’être au plus près de l’actualité, ces sites représenteront l’hôpital de Valenciennes, ses services et ses contacts - tous fictifs -  s’inspirant de l’attaque cyber récente sur l’hôpital de Dax en février 2021.
+
 Une première machine virtuelle, contenant 3 services WEB (2 sites Internet + base de données) et un serveur de fichier, permettra d’effectuer tout le travail de recueil d’information.
 La deuxième machine virtuelle qui simule le principal point d'entrée dans le réseau est un Windows vulnérable à une attaque « EternalBlue ».
+
 Dans un premier temps, les « joueurs » doivent travailler ensemble, de manière collaborative, afin de rechercher tous les renseignements nécessaires à l’analyse de l’environnement technique de « la cible » et chercher les vulnérabilités exploitables.
+
 Dans un deuxième temps, des équipes seront formées dans un scénario « BLUE TEAM » et « RED TEAM ». La RED TEAM devra exploiter les vulnérabilités afin d’éprouver la sécurité de l’infrastructure virtuelle, la BLUE TEAM devra quant-à elle analyser les traces, et suivre en direct les différentes attaques, afin d’éditer un rapport sur les corrections à apporter sur la sécurité.
 
 
@@ -86,10 +90,6 @@ _Serveur de fichiers du site hopital-valenciennes.fr:85_
 
 
 # Matériel nécessaire
-
-Les intervenants viendront avec 3 ordinateurs portables contenant les machines virtuelles et les présentations. Il sera nécessaire de les connecter au réseau existant.
-
-Dans le cas où les ordinateurs portables ne pourraient pas être connectés au réseau existant, il sera nécessaire d’exporter les VM et de les configurer sur un poste existant. Cela, en plus de nécessiter un temps de vérification et de test, nécessite également des ordinateurs hôtes suffisamment performants pour accueillir une dizaine de VM démarrées simultanément (obligatoire pour la partie EternalBlue)
 
 Une machine virtuelle en format OVA (VirtualBox) sera distribuée aux joueurs. Elle contient tous les outils et les configurations nécessaires à la formation et aux mises en pratique.
 
