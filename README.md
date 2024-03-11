@@ -93,14 +93,13 @@ Dans le cas où les ordinateurs portables ne pourraient pas être connectés au 
 
 Une machine virtuelle en format OVA (VirtualBox) sera distribuée aux joueurs. Elle contient tous les outils et les configurations nécessaires à la formation et aux mises en pratique.
 
+Sur les ordinateurs hôtes, il sera nécessaire d’avoir un minimum de 8Go d’espace disque libre, ainsi que 4go de mémoire vive.
+
+Les VM seront configurées pour fonctionner à travers le réseau, sur un adressage propre (le serveur Web embarquant son propre serveur DHCP avec un adressage en 192.168.5.0/24)
+Les VM joueur sont configurées en DHCP.
+
 
 # Ressources
 
 Pour télécharger les machines virtuelles et les documents ressources, suivez ce lien
 Google Drive : https://drive.google.com/drive/folders/1jHMvBVt7RT5liDk4E4iPg2xKamDCjXjf?usp=sharing
-
-
-Sur les ordinateurs hôtes, il sera nécessaire d’avoir un minimum de 8Go d’espace disque libre, ainsi que 4go de mémoire vive.
-
-Les VM seront configurées pour fonctionner à travers le réseau, sur un adressage propre (le serveur Web embarquant son propre serveur DHCP avec un adressage en 192.168.5.0/24)
-Les VM joueur sont configurées en DHCP.
